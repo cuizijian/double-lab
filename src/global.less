@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "BebasNeue";
+  src: url("/fonts/BebasNeue-Regular.ttf")
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("/fonts/WorkSans-VariableFont_wght.ttf")
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "WorkSans", serif;
+}
+
+@fontSizeLarge: 30px;
+@fontSizeMiddle: 20px;
+@fontSizeSmall: 14px;
+
+@globalPadding: 100px;
+a {
+  color: initial;
+}
+
+body, #root, .App {
+  max-width: 100%;
+  width: 100%;
+}
+
+a, a:active,a:hover {
+  text-decoration: none;
+}
+
+:global .clearfix::after {
+  content: " "; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}

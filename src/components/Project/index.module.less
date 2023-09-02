@@ -1,0 +1,81 @@
+@import "@/global.less";
+.Project {
+  margin-top: 40px;
+  .name {
+    font-family: 'WorkSans';
+    font-size: @fontSizeMiddle;
+  }
+
+  .description {
+    font-family: 'WorkSans';
+    margin-top: 20px;
+    font-size: @fontSizeLarge;
+    color: black;
+    font-weight: 800;
+  }
+
+  .description2 {
+    font-family: 'WorkSans';
+    margin-top: 20px;
+    font-size: @fontSizeSmall;
+    color: black;
+  }
+
+  .artists {
+    font-family: 'WorkSans';
+    color: black;
+    margin-top: 30px;
+    font-size: @fontSizeLarge;
+  }
+
+  .viewButton {
+    margin: 40px 0;
+    font-size: @fontSizeSmall;
+    width: 50%;
+    height: 50px;
+    border-color: black;
+    border-radius: 2px;
+  }
+
+  .Top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+      margin-top: 10px;
+      height: 40px;
+    }
+  }
+
+  .Marketplace {
+    height: 60px;
+    a {
+      display: inline-block;
+    }
+  }
+
+  .Left {
+    width: calc(41% - 30px);
+    padding-right: 30px;
+    float: left;
+  }
+
+  .Right {
+    width: 59%;
+    float: left;
+    img {
+      width: 100%;
+    }
+  }
+
+  .Bottom {
+    text-align: right;
+    font-family: 'WorkSans';
+    color: black;
+    margin-top: 10px;
+    font-size: @fontSizeSmall;
+  }
+}

@@ -1,0 +1,80 @@
+@import "@/global.less";
+.ProjectDetail {
+  .Top {
+    margin-top: 20px;
+  }
+  .WalletBtn {
+    float: right;
+  }
+  .BtnWrap {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .Banner {
+    text-align: center;
+    img {
+      width: 100%;
+      max-width: 1000px;
+    }
+  }
+
+  h2 {
+    margin: 1rem 0;
+  }
+
+  .ModuleTop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    img {
+      margin-top: 10px;
+      height: 40px;
+    }
+  }
+
+  .Marketplace {
+    height: 60px;
+    a {
+      display: inline-block;
+    }
+  }
+
+  .artWorkList {
+    display: flex;
+    flex-wrap: wrap;
+    .item {
+      padding: 10px;
+      display: inline-block;
+      width: 20%;
+      box-sizing: border-box;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .timeSliceBottom {
+    width: 100%;
+    @media screen and (min-width: 1200px){
+      height: 220px;
+    }
+    height: 140px;
+    img {
+      position: absolute;
+      left: 0;
+      width: 100%;
+    }
+  }
+
+  .Content {
+    font-size: @fontSizeSmall;
+    line-height: 1.5 * @fontSizeSmall;
+    color: #131415;
+  }
+
+  section {
+    margin-bottom: 40px;
+  }
+}
